@@ -47,40 +47,7 @@ int main()
   }
 auto end = std::chrono::system_clock::now();
 std::chrono::duration<float,std::milli> duration = end -start;
-cout<<duration.count()<<"s"<<endl;
-
-/*  for (int i = 0; i < MAX; i++)
-  {
-    delete [] mat1[i];
-    delete [] mat2[i];
-    delete [] mat3[i];
-  }
-  delete[] mat1;
-  delete[] mat2;
-  delete[] mat3;
-
-*/
-
-/*
-Tiempos con arrays:
-100   12.1592s
-500   886.378
-1000 --------
-
-Tiempos con vector;
-100     30.05   en milisegundos    0.03
-500     3019.07
-1000    32739.7
-2000    297587
-
-
-*/
-///algoritmo con la particion de bloques
-
-
-
-
-
+cout<<duration.count()<<"ms"<<endl;
 
 
 

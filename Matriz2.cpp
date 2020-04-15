@@ -60,9 +60,6 @@ int main()
   std::chrono::duration<float,std::milli> duration = end -start;
   cout<<duration.count()<<" ms"<<endl;
 
-/*
-100     1456.05 ms
-*/
 
 
 
