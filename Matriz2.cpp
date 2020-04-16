@@ -41,11 +41,11 @@ int main()
     {
       for(int kb=0;kb<MAX;kb+=bloque)
       {
-        for(int i = 0;i<MAX;i++)
+        for(int i = ib;i<ib+bloque;i++)
         {
-          for(int j=0;j<MAX;j++)
+          for(int j=jb;j<ib+bloque;j++)
           {
-            for(int k=0;k<MAX;k++)
+            for(int k=kb;k<kb+bloque;k++)
             {
               mat3[i][j] += mat1[i][k]*mat2[k][j];
             }
